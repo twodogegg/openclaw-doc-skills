@@ -1,0 +1,4 @@
+interface:
+  display_name: "OpenClaw CLI Docs"
+  short_description: "按命令解释 OpenClaw CLI，用中文优先英文回退。"
+  default_prompt: "请根据 OpenClaw CLI 文档回答，并给出可执行命令示例。"

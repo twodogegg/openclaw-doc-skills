@@ -1,0 +1,4 @@
+interface:
+  display_name: "OpenClaw Install Docs"
+  short_description: "按 OpenClaw 安装文档提供部署、升级、迁移、卸载与环境检查的分步操作建议。"
+  default_prompt: "请基于 install 文档给出适配当前环境的安装与升级方案。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "OpenClaw Providers Docs"
+  short_description: "按 OpenClaw providers 文档比较差异并给出最小可用配置、限流和回退策略建议。"
+  default_prompt: "请基于 providers 文档给出模型供应商配置与选择建议。"

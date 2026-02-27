@@ -1,0 +1,4 @@
+interface:
+  display_name: "OpenClaw Platforms Docs"
+  short_description: "按 platforms 文档提供多平台部署、权限差异、环境兼容和排障建议。"
+  default_prompt: "请基于 platforms 文档给出平台相关配置与排障步骤。"

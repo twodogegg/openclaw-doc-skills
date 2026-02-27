@@ -1,0 +1,4 @@
+interface:
+  display_name: "OpenClaw Help Docs"
+  short_description: "按 help 文档回答 FAQ、调试方法、测试路径与常见故障处理。"
+  default_prompt: "请基于 help 文档给出快速定位与修复建议。"

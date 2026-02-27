@@ -1,0 +1,4 @@
+interface:
+  display_name: "OpenClaw Concepts Docs"
+  short_description: "按 concepts 文档解释核心概念、术语关系、机制边界与设计约束。"
+  default_prompt: "请基于 concepts 文档解释原理、边界和最佳实践。"

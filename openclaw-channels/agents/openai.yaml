@@ -1,0 +1,4 @@
+interface:
+  display_name: "OpenClaw Channels Docs"
+  short_description: "按 OpenClaw 渠道文档提供接入步骤、配置要点、鉴权方式和联调排障路径。"
+  default_prompt: "请基于 channels 文档给出对接流程、示例配置与排障。"

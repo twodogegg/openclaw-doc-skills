@@ -1,0 +1,4 @@
+interface:
+  display_name: "OpenClaw Tools Docs"
+  short_description: "按 OpenClaw 工具文档解释能力边界、参数含义、调用路径与常见故障排查方法。"
+  default_prompt: "请基于 OpenClaw tools 文档，给我可执行步骤和风险提示。"

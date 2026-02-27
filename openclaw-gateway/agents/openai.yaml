@@ -1,0 +1,4 @@
+interface:
+  display_name: "OpenClaw Gateway Docs"
+  short_description: "解释 Gateway 配置、认证、会话与 API。"
+  default_prompt: "请按 OpenClaw Gateway 文档给出配置和排障步骤。"
