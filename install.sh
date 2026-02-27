@@ -2,11 +2,12 @@
 set -euo pipefail
 
 SRC_DIR="$(cd "$(dirname "$0")" && pwd)"
+SKILLS_DIR="$SRC_DIR/skills"
 DST_DIR="${HOME}/.codex/skills"
 
 mkdir -p "$DST_DIR"
 
-for d in "$SRC_DIR"/openclaw-*; do
+for d in "$SKILLS_DIR"/openclaw-*; do
   [ -d "$d" ] || continue
   name="$(basename "$d")"
   rm -rf "$DST_DIR/$name"

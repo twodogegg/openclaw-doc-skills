@@ -2,6 +2,26 @@
 
 OpenClaw 文档类 skills 合集（中文优先，英文回退）。
 
+## skills.sh 安装（推荐）
+
+安装整个合集：
+
+```bash
+npx skills add twodogegg/openclaw-doc-skills
+```
+
+只安装一个 skill（示例）：
+
+```bash
+npx skills add https://github.com/twodogegg/openclaw-doc-skills --skill openclaw-help
+```
+
+关闭遥测（可选）：
+
+```bash
+DISABLE_TELEMETRY=1 npx skills add twodogegg/openclaw-doc-skills
+```
+
 ## 包含技能
 
 - openclaw-cli
@@ -14,21 +34,10 @@ OpenClaw 文档类 skills 合集（中文优先，英文回退）。
 - openclaw-help
 - openclaw-install
 
-## 在其他电脑安装
-
-1. 克隆仓库到任意目录。
-2. 进入仓库执行：
+## 本地同步安装（备用）
 
 ```bash
 bash install.sh
 ```
 
-脚本会把本仓库里的 `openclaw-*` 目录同步到 `~/.codex/skills/`。
-
-## 更新方式
-
-在新电脑拉取最新代码后再次执行：
-
-```bash
-bash install.sh
-```
+脚本会把 `skills/` 下的 `openclaw-*` 目录同步到 `~/.codex/skills/`。
