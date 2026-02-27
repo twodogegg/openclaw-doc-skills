@@ -2,7 +2,7 @@
 
 OpenClaw 文档类 skills 合集（仅英文文档）。
 
-## skills.sh 安装（推荐）
+## skills.sh 安装
 
 安装整个合集：
 
@@ -33,11 +33,3 @@ DISABLE_TELEMETRY=1 npx skills add twodogegg/openclaw-doc-skills
 - openclaw-concepts
 - openclaw-help
 - openclaw-install
-
-## 本地同步安装（备用）
-
-```bash
-bash install.sh
-```
-
-脚本会把 `skills/` 下的 `openclaw-*` 目录同步到 `~/.codex/skills/`。
