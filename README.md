@@ -1,6 +1,6 @@
 # openclaw-docs-skills
 
-OpenClaw 文档类 skills 合集（中文优先，英文回退）。
+OpenClaw 文档类 skills 合集（仅英文文档）。
 
 ## skills.sh 安装（推荐）
 

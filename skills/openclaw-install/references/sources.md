@@ -1,8 +1,7 @@
-# Sources for openclaw-install
+# Internal Sources
 
-- 英文文档根目录：
-  - /Users/goudan/Github/openclaw-main/docs
-- 中文文档根目录：
-  - /Users/goudan/Github/openclaw-main/docs/zh-CN
+本文档资料内置在本 skill 的 `references/` 目录：
 
-本 skill 默认先读取中文对应目录；如中文条目缺失、仅占位或内容不足，自动回退到英文对应文件。
+- 英文文档：`references/en/install/`
+
+本 skill 仅使用英文文档，不读取中文文档。
